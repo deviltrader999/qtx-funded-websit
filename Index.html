@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QTX Funded Account</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+header {
+  background: #0a74da;
+  color: white;
+  padding: 15px 0 30px 0;
+  text-align: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(45deg,#0a74da,#2ed573);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-right: 10px;
+}
+.logo-text {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+nav a:hover { text-decoration: underline; }
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #0a74da, #2ed573);
+  color: white;
+}
+.hero h2 { font-size: 2em; margin-bottom: 10px; }
+.hero p { font-size: 1.2em; margin-bottom: 20px; }
+.cta-button {
+  background: #fff;
+  color: #0a74da;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+.cta-button:hover {
+  background: #2ed573;
+  color: white;
+  transform: translateY(-3px);
+}
+section { padding: 60px 20px; max-width: 1200px; margin: auto; }
+.pricing { display: flex; justify-content: space-around; flex-wrap: wrap; }
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.card h3 { margin-top: 0; margin-bottom: 15px; }
+ol { padding-left: 20px; }
+footer {
+  background: #0a74da;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  width: 100%;
+  padding: 15px;
+  background: #0a74da;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+form button:hover {
+  background: #2ed573;
+}
+a { color: white; text-decoration: none; margin: 0 10px; }
+.accordion {
+  background-color: #0a74da;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+  border-radius:5px;
+  margin-bottom:10px;
+}
+.accordion:hover { background-color: #2ed573; }
+.panel {
+  padding: 0 15px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  border-radius:5px;
+  margin-bottom:10px;
+}
+.testimonials {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px 0;
+}
+.testimonial-card {
+  min-width: 250px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  flex-shrink: 0;
+}
+.testimonial-card p { font-style: italic; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-container">
+    <div class="logo-icon">Q</div>
+    <h1 class="logo-text">QTX Funded Account</h1>
+  </div>
+  <nav style="margin-top:10px;">
+    <a href="#home">Home</a>
+    <a href="#programs">Programs</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h2>Get Funded and Trade Like a Pro with QTX Funded Account</h2>
+  <p>Join QTX Funded Account and unlock your trading potential today.</p>
+  <button class="cta-button">Apply Now</button>
+  <button class="cta-button">Learn More</button>
+</section>
+
+<section id="programs">
+  <h2>Our Funding Programs</h2>
+  <div class="pricing">
+    <div class="card">
+      <h3>$3K Account</h3>
+      <p>Price: $10</p>
+      <p>Profit Split: 70/30</p>
+      <p>Evaluation Rules: Max drawdown 5%</p>
+      <button class="cta-button">Apply</button>
+    </div>
+    <div class="card">
+      <h3>$5K Account</h3>
+      <p>Price: $20</p>
+      <p>Profit Split: 75/25</p>
+      <p>Evaluation Rules: Max drawdown 7%</p>
+      <button class="cta-button">Apply</button>
+    </div>
+    <div class="card">
+      <h3>$10K Account</h3>
+      <p>Price: $50</p>
+      <p>Profit Split: 80/20</p>
+      <p>Evaluation Rules: Max drawdown 10%</p>
+      <button class="cta-button">Apply</button>
+    </div>
+  </div>
+</section>
+
+<section id="how-it-works">
+  <h2>How It Works</h2>
+  <ol>
+    <li>Apply for a funded account</li>
+    <li>Complete the evaluation phase</li>
+    <li>Get funded and trade live</li>
+  </ol>
+</section>
+
+<section id="faq">
+  <h2>FAQ</h2>
+  <button class="accordion">How do I get funded?</button>
+  <div class="panel">
+    <p>Complete the evaluation phase with the set rules. Once approved, you receive a funded account.</p>
+  </div>
+
+  <button class="accordion">What is the profit split?</button>
+  <div class="panel">
+    <p>Depends on the account type, from 70/30 to 80/20 in favor of the trader.</p>
+  </div>
+
+  <button class="accordion">Can I upgrade my account?</button>
+  <div class="panel">
+    <p>Yes, after meeting performance requirements, traders can upgrade to higher accounts.</p>
+  </div>
+</section>
+
+<section id="testimonials">
+  <h2>Testimonials</h2>
+  <div class="testimonials">
+    <div class="testimonial-card">
+      <p>"QTX Funded Account changed the way I trade. Professional support and great funding!"</p>
+      <strong>- Aman K.</strong>
+    </div>
+    <div class="testimonial-card">
+      <p>"Easy evaluation and amazing profit split. Highly recommended!"</p>
+      <strong>- Priya S.</strong>
+    </div>
+    <div class="testimonial-card">
+      <p>"I got my funded account within days. Fantastic platform!"</p>
+      <strong>- Rohan M.</strong>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact / Sign Up</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 QTX Funded Account. All rights reserved.</p>
+  <p>
+    <a href="#">Privacy Policy</a> | 
+    <a href="#">Terms & Conditions</a>
+  </p>
+</footer>
+
+<script>
+// FAQ accordion
+var acc = document.getElementsByClassName("accordion");
+for (var i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    panel.style.display = (panel.style.display === "block") ? "none" : "block";
+  });
+}
+</script>
+
+</body>
+</html>
