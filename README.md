@@ -3,8 +3,7 @@
 QTX Funded is a minimal website that displays a single button — clicking it will take the user directly to your funded trading account link (e.g. Blueberry / Quotex, or your preferred link).
 
 ## 🔗 Live Site  
-[Visit QTX Funded Website](https://devil traders999.github.io/qtx-funded-website/)
-
+[Visit QTX Funded Website](https://deviltraders999.github.io/qtx-funded-website/)
 ## ➤ What this project does  
 - Provides a one‑click shortcut to your funded account.  
 - Uses a single HTML file (index.html) — no build tools or complicated setup needed.  
