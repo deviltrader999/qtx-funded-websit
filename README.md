@@ -1,36 +1,19 @@
-A website like Blueberry Funded usually has the following pages/sections:
+# QTX Funded Website
 
-Home Page
+QTX Funded is a minimal website that displays a single button — clicking it will take the user directly to your funded trading account link (e.g. Blueberry / Quotex, or your preferred link).
 
-Hero section with a headline like:
-“Get Funded and Trade Like a Pro with QTX Funded Account”
+## 🔗 Live Site  
+[Visit QTX Funded Website](https://devil traders999.github.io/qtx-funded-website/)
 
-Call-to-action (CTA) buttons: “Apply Now”, “Learn More”
+## ➤ What this project does  
+- Provides a one‑click shortcut to your funded account.  
+- Uses a single HTML file (index.html) — no build tools or complicated setup needed.  
+- Hosted for free using GitHub Pages.
 
-Overview of funding programs
-
-Programs / Pricing Page
-
-Different account types (like $10K, $25K, $50K accounts)
-
-Rules, profit split, and fees
-
-How It Works Page
-
-Step-by-step process: Apply → Prove → Get Funded → Trade
-
-About / FAQ Page
-
-About the company
-
-Frequently asked questions
-
-Contact / Sign Up Page
-
-Contact form, email, social links
-
-Sign-up form or links to registration
-
-Footer
-
-Links to social media, privacy policy, terms, etc.
+## 📝 Setup / Usage  
+1. Clone or download this repository, or view it directly on GitHub.  
+2. If needed, edit index.html to update the account link or button label, then commit changes.  
+3. Make sure GitHub Pages settings:
+   - Source: main branch  
+   - Folder: / (root)  
+4. After setup, open the live site at:
